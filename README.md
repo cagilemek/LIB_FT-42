@@ -51,7 +51,7 @@ Character Checks: ft_isalpha, ft_isdigit, ft_tolower, etc.
 
 Linked List: ft_lstnew, ft_lstadd_back, and more.
 
-Resources
+## Resources
 
 C Standard Library Documentation
 
