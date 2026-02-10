@@ -6,7 +6,7 @@
 /*   By: ckurtul <ckurtul@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 03:50:47 by ckurtul           #+#    #+#             */
-/*   Updated: 2026/01/19 01:25:31 by ckurtul          ###   ########.fr       */
+/*   Updated: 2026/02/08 04:44:50 by ckurtul          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,13 +27,3 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)s);
 	return ((char *)last);
 }
-
-/*
-#include <stdio.h>
-#include "libft.h"
-
-int main(void)
-{
-    printf("%s\n", ft_strrchr("bananaako", 'a'));
-}
-*/

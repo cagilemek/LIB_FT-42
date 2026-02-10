@@ -6,7 +6,7 @@
 /*   By: ckurtul <ckurtul@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/27 01:11:21 by ckurtul           #+#    #+#             */
-/*   Updated: 2026/01/29 16:35:40 by ckurtul          ###   ########.fr       */
+/*   Updated: 2026/02/08 01:03:51 by ckurtul          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,14 +31,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ptr[len] = '\0';
 	return (ptr);
 }
-
-/*#include <stdio.h>
-int main()
-{
-	char *a;
-	char *set;
-	a = " !!? bbbaoooo  ?!! ";
-	set = " !?";
-	printf("%s", ft_strtrim(a, set));
-	
-}*/

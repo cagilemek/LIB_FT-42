@@ -6,7 +6,7 @@
 /*   By: ckurtul <ckurtul@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/06 16:59:34 by ckurtul           #+#    #+#             */
-/*   Updated: 2026/02/06 21:15:46 by ckurtul          ###   ########.fr       */
+/*   Updated: 2026/02/08 04:45:25 by ckurtul          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,34 +36,3 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (new_list);
 }
-
-// #include "libft.h"
-// #include <stdio.h>
-// #include <stdlib.h>
-
-// void	*sq(void *c)
-// {
-// 	int *r = malloc(sizeof(int));
-// 	*r = (*(int *)c) * (*(int *)c);
-// 	return (r);
-// }
-
-// void	del(void *c)
-// {
-// 	free(c);
-// }
-
-// int	main(void)
-// {
-// 	t_list *a = ft_lstnew((int[]){1});
-// 	a->next = ft_lstnew((int[]){2});
-// 	a->next->next = ft_lstnew((int[]){3});
-
-// 	t_list *b = ft_lstmap(a, sq, del);
-
-// 	while (b)
-// 	{
-// 		printf("%d ", *(int *)b->content);
-// 		b = b->next;
-// 	}
-// }

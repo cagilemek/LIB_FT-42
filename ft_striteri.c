@@ -6,7 +6,7 @@
 /*   By: ckurtul <ckurtul@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/02 02:47:47 by ckurtul           #+#    #+#             */
-/*   Updated: 2026/02/06 21:04:47 by ckurtul          ###   ########.fr       */
+/*   Updated: 2026/02/08 02:36:40 by ckurtul          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,24 +25,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-/*#include <stdio.h>
-#include "libft.h"
-
-void my_toupper_i(unsigned int i, char *c)
-{
-    (void)i;
-    *c = ft_toupper(*c);
-}
-
-int main(void)
-{
-    char s[] = "emek";   // DİKKAT: dizi olmalı, pointer değil!
-
-    printf("Önce : %s\n", s);
-
-    ft_striteri(s, my_toupper_i);
-
-    printf("Sonra: %s\n", s);
-
-    return (0);
-}*/

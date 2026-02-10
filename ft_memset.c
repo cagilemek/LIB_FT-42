@@ -6,7 +6,7 @@
 /*   By: ckurtul <ckurtul@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/07 07:58:14 by ckurtul           #+#    #+#             */
-/*   Updated: 2026/01/14 02:20:10 by ckurtul          ###   ########.fr       */
+/*   Updated: 2026/02/07 17:03:17 by ckurtul          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,15 +26,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
-/*
-#include <stdio.h>
-#include <string.h>
-
-int main(void)
-{
-    int a;
-	ft_memset(&a, -122, 4);
-
-    printf("%d", a);
-}
-*/

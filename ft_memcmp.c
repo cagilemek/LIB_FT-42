@@ -6,7 +6,7 @@
 /*   By: ckurtul <ckurtul@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/17 01:25:31 by ckurtul           #+#    #+#             */
-/*   Updated: 2026/02/06 17:14:39 by ckurtul          ###   ########.fr       */
+/*   Updated: 2026/02/07 18:01:37 by ckurtul          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,18 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-// #include <stdio.h>
-// #include <string.h>
-
-// int	main(void)
-// {
-// 	char	*a = "hello";
-// 	char	*b = "hezzo";
-
-// 	printf("%d\n", ft_memcmp(a, b, 5));
-// }
-
-// char a[] = "hello";
-// char b[] = "hezzo"; FARKINI SORRRRRR
-// */

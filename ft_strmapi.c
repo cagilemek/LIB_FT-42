@@ -6,7 +6,7 @@
 /*   By: ckurtul <ckurtul@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/02 00:39:02 by ckurtul           #+#    #+#             */
-/*   Updated: 2026/02/06 21:02:18 by ckurtul          ###   ########.fr       */
+/*   Updated: 2026/02/08 02:36:08 by ckurtul          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,21 +33,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	new [i] = '\0';
 	return (new);
 }
-
-/*#include <stdio.h>
-#include "libft.h"
-
-char my_toupper(unsigned int i, char c)
-{
-	(void)i;
-	return ft_toupper(c);
-}
-
-int main()
-{
-	char *a = "asdf";
-	char *b = ft_strmapi(a, my_toupper);
-
-	printf("%s\n", b);
-	free(b);
-}*/

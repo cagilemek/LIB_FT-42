@@ -6,7 +6,7 @@
 /*   By: ckurtul <ckurtul@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/29 16:39:36 by ckurtul           #+#    #+#             */
-/*   Updated: 2026/02/02 00:38:34 by ckurtul          ###   ########.fr       */
+/*   Updated: 2026/02/08 04:46:38 by ckurtul          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,12 +53,3 @@ char	*ft_itoa(int n)
 	}
 	return (res);
 }
-/* #include <stdio.h>
-
-
-int	main(void)
-{
-	char *s = ft_itoa(9043904);
-	printf("%s\n", s);
-	free(s);
-} */

@@ -6,7 +6,7 @@
 /*   By: ckurtul <ckurtul@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/04 16:43:50 by ckurtul           #+#    #+#             */
-/*   Updated: 2026/02/06 21:11:09 by ckurtul          ###   ########.fr       */
+/*   Updated: 2026/02/08 02:49:50 by ckurtul          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,3 @@ int	ft_lstsize(t_list *lst)
 	}
 	return (i);
 }
-
-// #include <stdio.h>
-// int main()
-// {
-// 	t_list *lst = 
-// }

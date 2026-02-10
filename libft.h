@@ -6,7 +6,7 @@
 /*   By: ckurtul <ckurtul@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/06 15:42:38 by ckurtul           #+#    #+#             */
-/*   Updated: 2026/02/07 02:02:22 by ckurtul          ###   ########.fr       */
+/*   Updated: 2026/02/08 04:46:25 by ckurtul          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@ typedef struct s_list
 	struct s_list	*next;
 }	t_list;
 
-
 /* ================== PART 1 - LIBC FUNCTIONS ================== */
 
 int		ft_isalpha(int c);
@@ -38,7 +37,6 @@ size_t	ft_strlen(const char *s);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
-
 
 void	*ft_memset(void *s, int c, size_t n);
 void	ft_bzero(void *s, size_t n);

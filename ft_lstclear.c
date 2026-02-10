@@ -6,7 +6,7 @@
 /*   By: ckurtul <ckurtul@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/06 15:14:10 by ckurtul           #+#    #+#             */
-/*   Updated: 2026/02/06 21:14:02 by ckurtul          ###   ########.fr       */
+/*   Updated: 2026/02/08 00:31:24 by ckurtul          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,15 +26,3 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 	}
 	tmp = NULL;
 }
-
-// #include <stdlib.h>
-// #include <stdio.h>
-// void del_content(void *content)
-// {
-//     free(content);
-// }
-// int main()
-// {
-// 	t_list *a = malloc(sizeof(t_list));
-// 	ft_lstclear(&a, del_content);
-// }

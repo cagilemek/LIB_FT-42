@@ -6,7 +6,7 @@
 /*   By: ckurtul <ckurtul@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/07 09:51:18 by ckurtul           #+#    #+#             */
-/*   Updated: 2026/02/06 22:19:24 by ckurtul          ###   ########.fr       */
+/*   Updated: 2026/02/07 17:11:07 by ckurtul          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-// #include <stdio.h>
-// int main()
-// {
-// 	char a[] = "axaaxcbamaöa";
-// 	char b[66];
-
-// 	printf("%s", (char *)ft_memcpy(b+3,a, 3));
-// }

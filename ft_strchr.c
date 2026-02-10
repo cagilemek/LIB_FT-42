@@ -6,7 +6,7 @@
 /*   By: ckurtul <ckurtul@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 03:05:30 by ckurtul           #+#    #+#             */
-/*   Updated: 2026/01/19 01:25:11 by ckurtul          ###   ########.fr       */
+/*   Updated: 2026/02/07 17:42:21 by ckurtul          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,35 +31,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)&p[i]);
 	return (NULL);
 }
-
-/* pointer aritmetiği vers.
-
-#include "libft.h"
-
-char	*ft_strchr(const char *s, int c)
-{
-	unsigned char k;
-	unsigned char *p;
-
-	k = (unsigned char)c;
-	p = (unsigned char *)s;
-	while(*p)
-	{
-		if(*p == k)
-			return((char *)p);
-		p++;
-	}
-	if(k == '\0')
-		return ((char *)p);
-	return (NULL);
-}
-*/
-/*
-#include <stdio.h>
-#include "libft.h"
-
-int	main(void)
-{
-	printf("%s\n", ft_strchr("libft", 'i'));
-	return (0);
-} */
