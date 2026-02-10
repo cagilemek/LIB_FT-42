@@ -21,7 +21,6 @@ The library includes:
 
 **Clone the repository:**
 
-```bash
 git clone <repo_url>
 cd libft
 2. **Compile the library:**
